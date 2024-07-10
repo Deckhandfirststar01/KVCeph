@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 
 RUN apt-get update
 RUN apt-get -y install build-essential g++ git libbz2-dev wget python-dev
